@@ -2,6 +2,15 @@
 
 Este é um projeto React.js com TypeScript, utilizando o MUI (Material-UI) para estilos. A interface apresenta gráficos e funcionalidades de pesquisa para contas de luz.
 
+Link do figma
+
+https://www.figma.com/file/QgrXtg2mBHdi3nTuZniS7m/ENERGY?type=design&node-id=1-2925&mode=design&t=WHS9aiV26cApRZeV-0
+
+![image](https://github.com/joaoaaires/energy-bill-web/assets/11095781/8e897b13-cc7a-40d1-877e-6c847d8ccd3b)
+
+![image](https://github.com/joaoaaires/energy-bill-web/assets/11095781/b6c2d5e9-446d-4e5d-a35a-40da0baa0401)
+
+
 ## Instalação
 
 Certifique-se de ter o Node.js instalado em sua máquina. Execute o seguinte comando para instalar as dependências:
