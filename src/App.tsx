@@ -1,27 +1,14 @@
-import {RouterProvider, createBrowserRouter} from 'react-router-dom'
-import Root from './pages/Root'
-import Dashboard from './pages/Dashboard'
-import Bills from './pages/Bills'
+import { ChakraProvider } from '@chakra-ui/react'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './router'
+import { GlobalStyle } from './styles/global'
 
-function App() {
-  const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <Root />,
-      children: [
-        {
-          path: '/',
-          element: <Dashboard />,
-        },
-        {
-          path: '/bills',
-          element: <Bills />,
-        }
-      ]
-    }
-  ])
+export function App() {
+  return (
+    <ChakraProvider>
+      <RouterProvider router={router} />
 
-  return <RouterProvider router={router} />
+      <GlobalStyle />
+    </ChakraProvider>
+  )
 }
-
-export default App
